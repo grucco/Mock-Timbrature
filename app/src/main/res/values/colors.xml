@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#0288d1</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="timbratureMainColor">#03a9f4</color>
+    <color name="jobColor">#92f585</color>
+    <color name="entranceOrExitColor">#44c8ee</color>
+    <color name="anomalyColor">#ff594b</color>
+    <color name="darkGrayColor">#757575</color>
+    <color name="lightGrayColor">#c2c2c2</color>
+    <color name="superLightGrayColor">#e8e8e8</color>
+    <color name="blackColor">#000</color>
+</resources>

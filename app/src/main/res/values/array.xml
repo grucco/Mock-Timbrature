@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="timeChoicesItems">
+        <item>Entrata</item>
+        <item>Uscita</item>
+    </string-array>
+
+    <string-array name="reasonChoicesItems">
+        <item>Entrata</item>
+        <item>Uscita</item>
+    </string-array>
+</resources>

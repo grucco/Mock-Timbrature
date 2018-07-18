@@ -1,0 +1,149 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.jakewharton.butterknife'
+
+android {
+    signingConfigs {
+        collaudo {
+            keyAlias 'collaudo'
+            keyPassword 'Wrestling85'
+            storeFile file('/Users/Y2J/timbrature_collaudo.jks')
+            storePassword 'Wrestling85'
+        }
+    }
+    compileSdkVersion 25
+    buildToolsVersion '26.0.2'
+
+    defaultConfig {
+        applicationId "com.reply.timbrature.timbrature"
+        minSdkVersion 19
+        targetSdkVersion 25
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+    }
+    configurations.all {
+        resolutionStrategy.force 'com.android.support:cardview-v7:25.3.1'
+    }
+    buildTypes {
+        release {
+            // prod
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            resValue "string", "appid", "timbrature"
+            resValue "string", "service_root", "http://gwrpas.aceaspa.it"
+            resValue "string", "technical_username", "SMART_AC"
+            resValue "string", "technical_password", "Acea2017"
+            resValue "string", "server_port", "8010"
+            resValue "string", "fake_latitude", ""
+            resValue "string", "fake_longitude", ""
+            resValue "string", "fake_address", ""
+            /*resValue "string", "service_root", "https://websap.aceaspa.it/"
+            resValue "string", "technical_username", "EMPLOYEE50"
+            resValue "string", "technical_password", "Acea2017"
+            resValue "string", "server_port", "8024"
+            resValue "string", "fake_latitude", ""
+            resValue "string", "fake_longitude", ""
+            resValue "string", "fake_address", ""*/
+            buildConfigField 'boolean', 'DEMO_DATA', "false"
+        }
+        debug {
+            //preprod
+            resValue "string", "appid", "timbrature"
+            resValue "string", "service_root", "http://gwrpas.aceaspa.it"
+            resValue "string", "technical_username", "SMART_AC"
+            resValue "string", "technical_password", "Acea2017"
+            resValue "string", "server_port", "8010"
+            resValue "string", "fake_latitude", ""
+            resValue "string", "fake_longitude", ""
+            resValue "string", "fake_address", ""
+            buildConfigField 'boolean', 'DEMO_DATA', "true"
+            signingConfig signingConfigs.debug
+            debuggable true
+        }
+        mock {
+            resValue "string", "appid", "timbrature"
+            resValue "string", "server_port", "5555"
+            resValue "string", "service_root", "http://localhost"
+            resValue "string", "technical_username", "TestSwfm1"
+            resValue "string", "technical_password", "Acea2017"
+            resValue "string", "fake_latitude", "41.8504199"
+            resValue "string", "fake_longitude", "12.4946283"
+            resValue "string", "fake_address", "via Giorgione, 59"
+            buildConfigField 'boolean', 'DEMO_DATA', "true"
+            signingConfig signingConfigs.debug
+            debuggable true
+        }
+        develop {
+            resValue "string", "appid", "timbrature"
+            resValue "string", "server_port", "8030"
+            resValue "string", "service_root", "http://gwdpas.aceaspa.it"
+            resValue "string", "technical_username", "EMPLOYEE50"
+            resValue "string", "technical_password", "Acea2017"
+            resValue "string", "fake_latitude", ""
+            resValue "string", "fake_longitude", ""
+            resValue "string", "fake_address", ""
+            buildConfigField 'boolean', 'DEMO_DATA', "false"
+            signingConfig signingConfigs.debug
+            debuggable true
+        }
+        collaudo {
+            resValue "string", "appid", "timbrature"
+            resValue "string", "server_port", "8020"
+            resValue "string", "service_root", "http://gwqpas.aceaspa.it"
+            resValue "string", "technical_username", "EMPLOYEE50"
+            resValue "string", "technical_password", "Acea2017"
+            resValue "string", "fake_latitude", ""
+            resValue "string", "fake_longitude", ""
+            resValue "string", "fake_address", ""
+            buildConfigField 'boolean', 'DEMO_DATA', "false"
+            debuggable true
+            signingConfig signingConfigs.collaudo
+        }
+    }
+    lintOptions {
+        disable 'RestrictedApi'
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    androidTestCompile('com.android.support.test:runner:0.5', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support.test:runner:0.5'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.android.support:support-vector-drawable:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.github.sundeepk:compact-calendar-view:2.0.2'
+    compile 'com.jakewharton:butterknife:8.5.1'
+    compile 'com.framgia.library.calendardayview:library:1.0.3'
+    compile 'com.google.android.gms:play-services-location:10.2.1'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.code.gson:gson:2.8.0'
+    compile 'com.github.insanediv:SMP3.0ConnectionLib:1.0.11'
+    compile 'uk.co.samuelwall:material-tap-target-prompt:1.10.0'
+    compile 'junit:junit:4.12'
+    compile 'com.android.support:recyclerview-v7:25.3.1'
+
+    //OkHttp-Retrofit
+    compile "com.squareup.okhttp3:okhttp:${OK_HTTP_VERSION}"
+    compile "com.squareup.okhttp3:logging-interceptor:${OK_HTTP_VERSION}"
+    compile "com.squareup.retrofit2:retrofit:${RETROFIT_VERSION}"
+    compile "com.squareup.retrofit2:converter-gson:${RETROFIT_VERSION}"
+
+    //DAGGER
+    compile "com.google.dagger:dagger:${DAGGER_VERSION}"
+    annotationProcessor "com.google.dagger:dagger-compiler:${DAGGER_VERSION}"
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile "com.android.support:design:${SUPPORT_LIBRARY_VERSION}"
+
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
+}

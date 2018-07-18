@@ -1,0 +1,116 @@
+{
+    "d": {
+        "results": [
+            {
+                "__metadata": {
+                    "id": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829607')",
+                    "uri": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829607')",
+                    "type": "Z_SWFM_GATEWAY_ESS_SRV_01.TimbratureCoordinate"
+                },
+                "Pdsnr": "000000829607",
+                "PdcUsrup": "776",
+                "Uname": "EMPLOYEE50",
+                "Nome": "Operaio 3",
+                "Cognome": "Publiacqua",
+                "Societa": "PUBLIACQUA S.P.A.",
+                "Ldate": "/Date(1497916800000)/",
+                "Ltime": "PT12H23M34S",
+                "Satza": "P10",
+                "Tipotext": "Entrata",
+                "Zausw": "10000122",
+                "Latitudine": "41.8505377",
+                "Longitudine": "12.4944267",
+                "Via": "VIA GIORGIONE, 59",
+                "Link": "http://maps.google.com/maps?&z=15&mrt=yp&t=m&q=41.8505377+12.4944267"
+            },
+            {
+                "__metadata": {
+                    "id": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829608')",
+                    "uri": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829608')",
+                    "type": "Z_SWFM_GATEWAY_ESS_SRV_01.TimbratureCoordinate"
+                },
+                "Pdsnr": "000000829608",
+                "PdcUsrup": "776",
+                "Uname": "EMPLOYEE50",
+                "Nome": "Operaio 3",
+                "Cognome": "Publiacqua",
+                "Societa": "PUBLIACQUA S.P.A.",
+                "Ldate": "/Date(1497916800000)/",
+                "Ltime": "PT12H25M47S",
+                "Satza": "P10",
+                "Tipotext": "Entrata",
+                "Zausw": "10000122",
+                "Latitudine": "41.8503499",
+                "Longitudine": "12.4944827",
+                "Via": "VIA GIORGIONE, 59",
+                "Link": "http://maps.google.com/maps?&z=15&mrt=yp&t=m&q=41.8503499+12.4944827"
+            },
+            {
+                "__metadata": {
+                    "id": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829609')",
+                    "uri": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829609')",
+                    "type": "Z_SWFM_GATEWAY_ESS_SRV_01.TimbratureCoordinate"
+                },
+                "Pdsnr": "000000829609",
+                "PdcUsrup": "776",
+                "Uname": "EMPLOYEE50",
+                "Nome": "Operaio 3",
+                "Cognome": "Publiacqua",
+                "Societa": "PUBLIACQUA S.P.A.",
+                "Ldate": "/Date(1497916800000)/",
+                "Ltime": "PT12H35M04S",
+                "Satza": "P10",
+                "Tipotext": "Entrata",
+                "Zausw": "10000122",
+                "Latitudine": "41.8503499",
+                "Longitudine": "12.4944827",
+                "Via": "VIA GIORGIONE, 59",
+                "Link": "http://maps.google.com/maps?&z=15&mrt=yp&t=m&q=41.8503499+12.4944827"
+            },
+            {
+                "__metadata": {
+                    "id": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829610')",
+                    "uri": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829610')",
+                    "type": "Z_SWFM_GATEWAY_ESS_SRV_01.TimbratureCoordinate"
+                },
+                "Pdsnr": "000000829610",
+                "PdcUsrup": "776",
+                "Uname": "EMPLOYEE50",
+                "Nome": "Operaio 3",
+                "Cognome": "Publiacqua",
+                "Societa": "PUBLIACQUA S.P.A.",
+                "Ldate": "/Date(1497916800000)/",
+                "Ltime": "PT12H36M14S",
+                "Satza": "P10",
+                "Tipotext": "Entrata",
+                "Zausw": "10000122",
+                "Latitudine": "41.8503499",
+                "Longitudine": "12.4944827",
+                "Via": "VIA GIORGIONE, 59",
+                "Link": "http://maps.google.com/maps?&z=15&mrt=yp&t=m&q=41.8503499+12.4944827"
+            },
+            {
+                "__metadata": {
+                    "id": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829611')",
+                    "uri": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000829611')",
+                    "type": "Z_SWFM_GATEWAY_ESS_SRV_01.TimbratureCoordinate"
+                },
+                "Pdsnr": "000000829611",
+                "PdcUsrup": "776",
+                "Uname": "EMPLOYEE50",
+                "Nome": "Operaio 3",
+                "Cognome": "Publiacqua",
+                "Societa": "PUBLIACQUA S.P.A.",
+                "Ldate": "/Date(1497916800000)/",
+                "Ltime": "PT12H44M49S",
+                "Satza": "P10",
+                "Tipotext": "Entrata",
+                "Zausw": "10000122",
+                "Latitudine": "41.8505377",
+                "Longitudine": "12.4944267",
+                "Via": "VIA GIORGIONE, 59",
+                "Link": "http://maps.google.com/maps?&z=15&mrt=yp&t=m&q=41.8505377+12.4944267"
+            }
+        ]
+    }
+}

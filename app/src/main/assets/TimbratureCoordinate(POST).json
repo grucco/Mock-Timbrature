@@ -1,0 +1,26 @@
+{
+    "d": {
+        "__metadata": {
+            "id": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000823898')",
+            "uri": "http://gwdpas.aceaspa.it:8030/sap/opu/odata/sap/Z_SWFM_GATEWAY_ESS_SRV_01/TimbratureCoordinateSet('000000823898')",
+            "type": "Z_SWFM_GATEWAY_ESS_SRV_01.TimbratureCoordinate"
+        },
+        "Latitudine": "41.8756864",
+        "Nome": "Operaio 3",
+        "Tipotext": "Entrata",
+        "Cognome": "Publiacqua",
+        "Link": "",
+        "Longitudine": "12.4798911",
+        "Societa": "PUBLIACQUA S.P.A.",
+        "Pdsnr": "000000823898",
+        "Ldate": "/Date(1491782400000)/",
+        "Via": "Piramide",
+        "Ltime": "PT08H44M00S",
+        "Satza": "P10",
+        "Uname": "EMPLOYEE50",
+        "Zausw": "10000122"
+    }
+}
+
+
+
