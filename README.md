@@ -35,3 +35,6 @@ La schermata principale dell'app:
 
 # Http client
 Il client HTTP utilizzato è Ion. Le chiamate di rete sono gestite all'interno del file NetworkManager.java
+
+# Descrizione delle modifiche
+Le classi create per realizzare il mock, nonchè la descrizione delle modifiche effettuate sulla versione originale, sono esposte nel documento "Mock Timbrature"
